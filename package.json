@@ -26,6 +26,13 @@
     "url": "https://github.com/nightscout/cgm-remote-monitor/issues"
   },
   "scripts": {
+  "vercel-build": "next build"
+  },
+  "dependencies": {
+  "next": "14.2.3",
+  "react": "18.2.0",
+  "react-dom": "18.2.0"
+}
     "start": "node lib/server/server.js",
     "test": "env-cmd -f ./my.test.env mocha --timeout 5000 --require ./tests/hooks.js -exit ./tests/*.test.js",
     "test-single": "env-cmd -f ./my.test.env mocha --timeout 5000 --require ./tests/hooks.js --exit ./tests/$TEST.test.js",
