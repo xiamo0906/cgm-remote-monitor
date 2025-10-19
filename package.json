@@ -69,6 +69,9 @@
     "npm": "10.x"
   },
   "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
     "@parse/node-apn": "^5.1.3",
